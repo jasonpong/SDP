@@ -1,0 +1,9 @@
+impala:
+  host: your-host
+  port: 21050
+  auth_mechanism: GSSAPI
+  kerberos_service_name: impala
+  kerberos_principal: user@REALM
+  keytab_path: /path/to/user.keytab
+  database: default
+  use_ssl: true
